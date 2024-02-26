@@ -9,4 +9,6 @@ if (parola1.length > parola2.length) {
     console.log("la seconda parola è piu lunga");
 
 
+} else {
+    console.log("le parole sono uguali");
 }

@@ -1,20 +1,15 @@
-console.log("ciao");
-
-let number1 = prompt("inserisci un nmero")
-let number2 = prompt("inserisci un secondo numero")
-
-console.log(number1, number2);
-
-number1 = parseInt(number1);
-number1 = parseInt(number2);
+let number1 = Number(prompt("Inserisci un numero"))
+let number2 = Number(prompt("Inserisci un numero"))
 
 
-if (number1 > number2) {
-    console.log("il nuero maggiore è il primo");
-}else if (number1 < number2) {
 
-    console.log("il numero maggiore è il secondo");
+
+if (number1 <  number2) {
+    console.log("Il pirmo numero è piu grande");
+
+} else if (number1 > number2) {
+    console.log("Il secondo numero è piu grande");
 
 } else {
-    console.log("i numeri sono uguali");
+    console.log("pareggio");
 }

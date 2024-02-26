@@ -12,9 +12,9 @@ while (i < 10) {
 
 // ciclo for
 for (let i = 0; i < Utentenome.length; i++) {
-    const tv = Utentenome[i];
+   const tv = Utentenome[i];
 
-    console.log(tv);
+  console.log(tv);
 
 }
 
